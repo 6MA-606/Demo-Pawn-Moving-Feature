@@ -12,8 +12,21 @@
   <main class="container">
     <div class="board"></div>
     <div class="controls">
-      Board size
-      <input id="board-size-input" type="number" min="3" max="5" />
+      <div class="line">
+        <button id="reset-button">Reset</button>
+      </div>
+      <div class="line">
+        Board size
+        <input id="board-size-input" type="number" min="3" max="5" />
+      </div>
+      <div class="line">
+        Pawn/Player
+        <input id="pawn-input" type="number" min="1" max="3" />
+      </div>
+      <div class="line">
+        <input id="two-player-checkbox" type="checkbox">
+        <label for="two-player-checkbox">2 Players</label>
+      </div>
     </div>
   </main>
   <script src="script.js" type="module"></script>
